@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<predefined>
+    <wifi
+        blocked="false"
+        package="root" />
+    <other
+        blocked="false"
+        package="root"
+        roaming="false" />
+
+    <wifi
+        blocked="false"
+        package="eu.faircode.netguard" />
+    <other
+        blocked="false"
+        package="eu.faircode.netguard"
+        roaming="false" />
+
+
+    <!--app block list-->
+
+    <wifi
+        blocked="true"
+        package="com.google.android.youtube" />
+    <other
+        blocked="true"
+        package="com.google.android.youtube"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.facebook.katana" />
+    <other
+        blocked="true"
+        package="com.facebook.katana"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.viber.voip" />
+    <other
+        blocked="true"
+        package="com.viber.voip"
+        roaming="false" />
+
+
+
+    <wifi
+        blocked="true"
+        package="com.whatsapp" />
+    <other
+        blocked="true"
+        package="com.whatsapp"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.imo.android.imoim" />
+    <other
+        blocked="true"
+        package="com.imo.android.imoim"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.bongo.bioscope" />
+    <other
+        blocked="true"
+        package="com.bongo.bioscope"
+        roaming="false" />
+
+
+    <wifi
+        blocked="true"
+        package="com.lenovo.anyshare.gps" />
+    <other
+        blocked="true"
+        package="com.lenovo.anyshare.gps"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.cricbuzz.android" />
+    <other
+        blocked="true"
+        package="com.cricbuzz.android"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.dropbox.android" />
+    <other
+        blocked="true"
+        package="com.dropbox.android"
+        roaming="false" />
+
+
+    <wifi
+        blocked="true"
+        package="com.google.android.apps.docs" />
+    <other
+        blocked="true"
+        package="com.google.android.apps.docs"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.android.vending" />
+    <other
+        blocked="true"
+        package="com.android.vending"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="com.google.android.play.games" />
+    <other
+        blocked="true"
+        package="com.google.android.play.games"
+        roaming="false" />
+
+
+    <wifi
+        blocked="true"
+        package="com.jagoapp.jagobd" />
+    <other
+        blocked="true"
+        package="com.jagoapp.jagobd"
+        roaming="false" />
+
+    <wifi
+        blocked="true"
+        package="org.mozilla.firefox" />
+    <other
+        blocked="true"
+        package="com.opera.mini.native"
+        roaming="false" />
+
+
+    <wifi
+        blocked="false"
+        package="com.google.android.apps.adm" />
+    <other
+        blocked="false"
+        package="com.google.android.apps.adm"
+        roaming="false" />
+
+    <wifi
+        blocked="false"
+        package="com.google.android.backuptransport" />
+    <other
+        blocked="false"
+        package="com.google.android.backuptransport" />
+
+    <wifi
+        blocked="false"
+        package="com.google.android.gms" />
+    <other
+        blocked="false"
+        package="com.google.android.gms" />
+
+    <wifi
+        blocked="false"
+        package="com.google.android.apps.gcs" />
+    <other
+        blocked="false"
+        package="com.google.android.apps.gcs"
+        roaming="false" />
+
+    <relation
+        package="com.android.vending"
+        related="com.google.android.gms,com.android.providers.downloads" />
+    <relation
+        package="com.android.chrome"
+        related="com.android.providers.downloads" />
+
+    <type
+        package="com.android.chrome"
+        system="false" />
+    <type
+        package="com.facebook.katana"
+        system="false" />
+    <type
+        package="com.facebook.orca"
+        system="false" />
+    <type
+        package="com.google.android.youtube"
+        system="false" />
+    <type
+        package="com.skype.raider"
+        system="false" />
+    <type
+        package="com.twitter.android"
+        system="false" />
+    <type
+        package="com.whatsapp"
+        system="false" />
+    <type
+        package="com.instagram.android"
+        system="false" />
+    <type
+        package="com.facebook.orca"
+        system="false" />
+    <type
+        package="com.google.android.youtube"
+        system="false" />
+</predefined>
